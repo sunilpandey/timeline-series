@@ -12,6 +12,7 @@ import { timelineInfo, ITimelineInfo } from "./timelineInfo";
       .main-container {
         display: flex;
         flex-direction: column;
+        background-color: cadetblue;
       }
     `,
   ],

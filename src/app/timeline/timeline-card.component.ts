@@ -25,8 +25,7 @@ export class TimelineCardComponent implements OnInit {
     const observer = new IntersectionObserver(([entry], observer) => {
       if(entry.intersectionRatio <= 0.3) {
         this.host.nativeElement.style.opacity = "0"; 
-      } 
-      if(entry.intersectionRatio >= 0.3 && entry.intersectionRatio < 0.6) {
+      } else if(entry.intersectionRatio >= 0.3 && entry.intersectionRatio < 0.6) {
         this.host.nativeElement.style.opacity = "0.2"; 
       } else if(entry.intersectionRatio >= 0.6 && entry.intersectionRatio < 0.8) {
         this.host.nativeElement.style.opacity = "0.6";

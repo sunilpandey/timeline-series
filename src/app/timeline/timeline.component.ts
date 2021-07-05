@@ -41,6 +41,7 @@ import { ITimelineInfo } from './timelineInfo';
       .timecard-item {
         display: flex;
         gap: 10px;
+        color: white;
       }
 
       .middle {
