@@ -2,10 +2,10 @@
 This project is demonstration of javascript intersection observer apis
 ![](./timeline-short.gif)
 
-# Feature of this projects
+# Features of this project
 
 * Beautiful setup of timeline
-* Progressive blurring of timeline item on scroll
+* Progressive blur of timeline item on scroll
 * Infinite scrolling
 
 ## Development server
